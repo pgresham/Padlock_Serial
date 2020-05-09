@@ -20,8 +20,7 @@ int main(int argc, char *argv[]){
   	
   	
   	std::string line; //line buffer for file
-  	std::string line2; //next line for file
-  	std::ifstream dataFile("data");
+        std::ifstream dataFile("data");
 	int flag = 0; //keep it from printing not found all the time
 	std::string s = argv[1];
 	std::transform(s.begin(), s.end(), s.begin(), ::toupper);
